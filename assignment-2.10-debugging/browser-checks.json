@@ -1,0 +1,27 @@
+{
+  "browser": "153.0.8010.0",
+  "screenshots": [
+    {
+      "file": "initial-validation.png",
+      "captured_at_utc": "2026-10-29T21:35:11.550Z",
+      "source": "Unmodified HTML response from the hosted W3C Nu HTML Checker, rendered locally with its stylesheet."
+    },
+    {
+      "file": "final-validation.png",
+      "captured_at_utc": "2026-10-29T21:35:12.136Z",
+      "source": "Unmodified HTML response from the hosted W3C Nu HTML Checker, rendered locally with its stylesheet."
+    }
+  ],
+  "checks": [
+    "Fixed IDs unique",
+    "All fragment targets exist",
+    "Both navigation links followed",
+    "SVG loads with useful alt",
+    "Each form field has an associated label",
+    "Name label click focuses input",
+    "Empty form rejected",
+    "Valid fictional form accepted",
+    "Submit button works with Enter"
+  ],
+  "scope": "Browser checks supplement W3C conformance checks. No real message is sent."
+}

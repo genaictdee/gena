@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A corrected learning profile demonstrating valid structure, working links and an accessible practice form.">
+  <title>My Learning Profile | HTML Debugging</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <header>
+    <h1>My Learning Profile</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#contact">Contact me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am learning frontend development.</p>
+      <ul><li>HTML</li><li>Accessibility</li></ul>
+      <p><strong>I enjoy <em>building useful pages.</em></strong></p>
+      <figure>
+        <img src="images/profile.svg" alt="Generic illustrated profile avatar for this learning page" width="160" height="160">
+        <figcaption>A generic illustration used instead of a personal photograph.</figcaption>
+      </figure>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Use fictional details only. This practice form reloads the page with values in the URL. It does not send or save messages.</p>
+      <form action="fixed.html#form-note" method="get">
+        <fieldset>
+          <legend>Send a practice message</legend>
+          <p>
+            <label for="name">Name (required)</label><br>
+            <input id="name" name="name" type="text" minlength="2" maxlength="80" autocomplete="off" required>
+          </p>
+          <p>
+            <label for="email">Email (required)</label><br>
+            <input id="email" name="email" type="email" maxlength="120" autocomplete="off" required>
+          </p>
+          <p>
+            <label for="message">Message (required)</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" minlength="10" maxlength="1000" required></textarea>
+          </p>
+          <p><button type="submit">Send message</button></p>
+        </fieldset>
+      </form>
+      <section id="form-note">
+        <h3>About Practice Submission</h3>
+        <p>This explanation is always present. It is not a delivery receipt. A valid form submission returns here with the fictional values in the page URL.</p>
+      </section>
+    </section>
+  </main>
+  <footer><p>HTML debugging practice.</p></footer>
+</body>
+</html>

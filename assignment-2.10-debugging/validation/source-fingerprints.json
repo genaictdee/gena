@@ -1,0 +1,9 @@
+{
+  "broken.html": {
+    "sha256": "261d535627f143bb2a6cc472db834aea3654580b958639b02f39c93c0fae7595",
+    "preserved_at_utc": "2026-10-29T21:32:29.228700+00:00"
+  },
+  "fixed.html": {
+    "sha256": "b51f4719704a5c702c51fa2891b4651282b319f1a42c7723abe7fef2a479ac90"
+  }
+}

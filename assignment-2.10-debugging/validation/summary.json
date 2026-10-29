@@ -1,0 +1,24 @@
+[
+  {
+    "phase": "initial",
+    "file": "broken.html",
+    "checked_at_utc": "2026-10-29T21:32:52.554455+00:00",
+    "sha256": "261d535627f143bb2a6cc472db834aea3654580b958639b02f39c93c0fae7595",
+    "checker_version": "26.10.18",
+    "errors": 10,
+    "warnings": 1,
+    "total_messages": 11,
+    "endpoint": "https://validator.w3.org/nu/"
+  },
+  {
+    "phase": "final",
+    "file": "fixed.html",
+    "checked_at_utc": "2026-10-29T21:33:01.644571+00:00",
+    "sha256": "b51f4719704a5c702c51fa2891b4651282b319f1a42c7723abe7fef2a479ac90",
+    "checker_version": "26.10.18",
+    "errors": 0,
+    "warnings": 0,
+    "total_messages": 0,
+    "endpoint": "https://validator.w3.org/nu/"
+  }
+]
