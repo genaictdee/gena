@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Try a labelled project application form using fictional details and native HTML validation.">
+  <title>Apply | iDigital Concept</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <header>
+    <p><strong>iDigital Concept</strong></p>
+    <img src="../images/dots.svg" alt="" width="160" height="16">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../services.html">Services</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="application.html" aria-current="page">Apply</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <h1>Practice Project Application</h1>
+    <p>Use this form to practise HTML form controls. <strong>Use fictional details only.</strong> No application is stored or sent to a business.</p>
+    <p>Fields marked “required” must be completed. The browser checks the constraints before submitting. Submission reloads this page with the example values in the URL.</p>
+    <form action="application.html#submission-note" method="get">
+      <fieldset><legend>Applicant Details</legend>
+        <p><label for="full-name">Full name (required)</label><br><input type="text" id="full-name" name="full_name" minlength="2" maxlength="80" autocomplete="off" required></p>
+        <p><label for="email">Email address (required)</label><br><input type="email" id="email" name="email" maxlength="120" autocomplete="off" required></p>
+        <p><label for="phone">Telephone number (required)</label><br><input type="tel" id="phone" name="phone" minlength="7" maxlength="20" pattern="[0-9+ ]{7,20}" aria-describedby="phone-help" autocomplete="off" required><br><small id="phone-help">Enter 7 to 20 characters using digits, spaces and an optional plus sign.</small></p>
+      </fieldset>
+      <fieldset><legend>Project Details</legend>
+        <p><label for="service">Service needed (required)</label><br><select id="service" name="service" required><option value="">Choose a service</option><option value="website">Website development</option><option value="social-media">Social media management</option><option value="content">Content writing</option><option value="seo">Search engine optimisation</option></select></p>
+        <p><label for="project-summary">Project summary (required)</label><br><textarea id="project-summary" name="project_summary" rows="5" cols="30" minlength="20" maxlength="1000" aria-describedby="summary-help" required></textarea><br><small id="summary-help">Use 20 to 1,000 characters to describe a fictional project.</small></p>
+      </fieldset>
+      <fieldset><legend>Preferred Contact Method (required)</legend><p>Choose one option.</p>
+        <p><input type="radio" id="contact-email" name="contact_method" value="email" required> <label for="contact-email">Email</label></p>
+        <p><input type="radio" id="contact-phone" name="contact_method" value="phone" required> <label for="contact-phone">Telephone</label></p>
+      </fieldset>
+      <fieldset><legend>Topics of Interest (optional)</legend><p>Select any topics that interest you.</p>
+        <p><input type="checkbox" id="interest-web" name="interest" value="websites"> <label for="interest-web">Websites</label></p>
+        <p><input type="checkbox" id="interest-marketing" name="interest" value="marketing"> <label for="interest-marketing">Digital marketing</label></p>
+      </fieldset>
+      <fieldset><legend>Practice Confirmation</legend>
+        <p><input type="checkbox" id="demo-confirmation" name="demo_confirmation" value="fictional-details" required> <label for="demo-confirmation">I have used fictional details and understand this is a demonstration (required).</label></p>
+      </fieldset>
+      <p><button type="submit">Submit practice application</button></p>
+    </form>
+    <section id="submission-note"><h2>About Practice Submission</h2><p>If the browser accepted the form, its example values appear in the page URL. This static website cannot save, email or process an application. This section is a permanent explanation, not a confirmation that a submission was received.</p><p><a href="../index.html">Return to the home page</a>.</p></section>
+  </main>
+  <footer>
+    <p>iDigital Concept | HTML Foundations learning project</p>
+    <p><a href="../contact.html">Contact information</a></p>
+  </footer>
+</body>
+</html>

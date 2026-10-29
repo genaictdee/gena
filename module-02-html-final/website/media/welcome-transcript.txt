@@ -1,0 +1,1 @@
+Welcome to the iDigital Concept learning project. This website demonstrates clear navigation, accessible images and labelled form controls. Explore our services and try the practice application using fictional details.

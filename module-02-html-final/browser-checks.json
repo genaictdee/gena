@@ -1,0 +1,46 @@
+{
+  "browser": "153.0.8010.0",
+  "navigationClicks": 36,
+  "localLinkChecks": 58,
+  "pages": [
+    {
+      "file": "index.html",
+      "imagesLoaded": 2,
+      "screenshot": "screenshots/index.png"
+    },
+    {
+      "file": "about.html",
+      "imagesLoaded": 1,
+      "screenshot": "screenshots/about.png"
+    },
+    {
+      "file": "services.html",
+      "imagesLoaded": 1,
+      "screenshot": "screenshots/services.png"
+    },
+    {
+      "file": "blog.html",
+      "imagesLoaded": 1,
+      "screenshot": "screenshots/blog.png"
+    },
+    {
+      "file": "contact.html",
+      "imagesLoaded": 1,
+      "screenshot": "screenshots/contact.png"
+    },
+    {
+      "file": "pages/application.html",
+      "imagesLoaded": 1,
+      "screenshot": "screenshots/application.png"
+    }
+  ],
+  "formTests": [
+    "empty form rejected",
+    "complete fictional form accepted",
+    "invalid email rejected",
+    "sample GET submission reached expected target"
+  ],
+  "audio": "MP3 loaded and played",
+  "keyboard": "Tab reached skip link and Enter followed it",
+  "limitations": "Screenshots show browser-rendered page content without browser address-bar chrome. No real application is stored."
+}

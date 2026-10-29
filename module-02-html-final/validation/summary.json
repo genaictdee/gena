@@ -1,0 +1,62 @@
+[
+  {
+    "page": "about.html",
+    "sha256": "c3b3f0e9212be58fcb1f48f601d5a356fe59da06ebbcb83b1d39cc728adcf58f",
+    "checked_at_utc": "2026-10-29T21:00:07.966760+00:00",
+    "checker": "https://validator.w3.org/nu/?out=json",
+    "checker_version": "26.10.18",
+    "errors": 0,
+    "warnings": 0,
+    "report": "about.html.json"
+  },
+  {
+    "page": "blog.html",
+    "sha256": "2c2f92dd7678efb5d20d5eced4cc67b55b300c9607c0af57fd7699a310163317",
+    "checked_at_utc": "2026-10-29T21:00:07.966410+00:00",
+    "checker": "https://validator.w3.org/nu/?out=json",
+    "checker_version": "26.10.18",
+    "errors": 0,
+    "warnings": 0,
+    "report": "blog.html.json"
+  },
+  {
+    "page": "contact.html",
+    "sha256": "88af4a4635e053b0bc2211c4906808c2c774e22eb08b175ba287ae88c93c5a7a",
+    "checked_at_utc": "2026-10-29T21:00:07.975349+00:00",
+    "checker": "https://validator.w3.org/nu/?out=json",
+    "checker_version": "26.10.18",
+    "errors": 0,
+    "warnings": 0,
+    "report": "contact.html.json"
+  },
+  {
+    "page": "index.html",
+    "sha256": "7e82d2458bc00a9bb8a78a34a2fa68d8d89da4ade0055ab696dc65067da0e9e6",
+    "checked_at_utc": "2026-10-29T21:00:13.225907+00:00",
+    "checker": "https://validator.w3.org/nu/?out=json",
+    "checker_version": "26.10.18",
+    "errors": 0,
+    "warnings": 0,
+    "report": "index.html.json"
+  },
+  {
+    "page": "pages/application.html",
+    "sha256": "c7ed0b37a2dac4b144c24b31ff8e9d90f4b16efeb52090cc97646ed3bd51acee",
+    "checked_at_utc": "2026-10-29T21:00:13.180033+00:00",
+    "checker": "https://validator.w3.org/nu/?out=json",
+    "checker_version": "26.10.18",
+    "errors": 0,
+    "warnings": 0,
+    "report": "pages-application.html.json"
+  },
+  {
+    "page": "services.html",
+    "sha256": "8ac20d07cd75711b4cd1bd6b907376511a4a91bd9767b3a3f52f54f085f08998",
+    "checked_at_utc": "2026-10-29T21:00:13.174773+00:00",
+    "checker": "https://validator.w3.org/nu/?out=json",
+    "checker_version": "26.10.18",
+    "errors": 0,
+    "warnings": 0,
+    "report": "services.html.json"
+  }
+]

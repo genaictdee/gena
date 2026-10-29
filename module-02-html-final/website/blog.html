@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Read short learning notes about meaningful links, image descriptions and accessible forms.">
+  <title>Blog | iDigital Concept</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <header>
+    <p><strong>iDigital Concept</strong></p>
+    <img src="images/dots.svg" alt="" width="160" height="16">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html" aria-current="page">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="pages/application.html">Apply</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <h1>Notes on Building Better Web Pages</h1>
+    <p>These short articles share lessons from this HTML project.</p>
+    <article><h2>Use Link Text That Makes Sense</h2><p>A link label should tell the reader what to expect. For example, “View our service guide” gives more information than a vague instruction.</p><p><a href="services.html">View our service guide</a>.</p></article>
+    <article><h2>Describe Images According to Their Purpose</h2><p>A meaningful image needs useful alternative text. A purely decorative image can use an empty alt attribute so screen readers can skip it.</p><p><a href="https://www.w3.org/WAI/tutorials/images/">Read the W3C guide to accessible images</a>.</p></article>
+    <article><h2>Give Every Form Control a Label</h2><p>A visible label helps people understand what to enter. Matching the label's for attribute to the control's id also creates a programmatic connection.</p><p><a href="pages/application.html">Explore the labelled application form</a>.</p></article>
+  </main>
+  <footer>
+    <p>iDigital Concept | HTML Foundations learning project</p>
+    <p><a href="contact.html">Contact information</a></p>
+  </footer>
+</body>
+</html>
